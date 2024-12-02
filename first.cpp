@@ -11,14 +11,15 @@ using namespace std;
 int main() {
   int myNum = 15;
   const int myConst = 34;
-  int x;
-  cout << "Type a number: ";       // Type a number and press enter
+  string x;
+  cout << "Type a string: ";       // Type a string and press enter
   cin >> x;                        // Get user input from the keyboard
   cout << "Your number is: " << x; // Display the input value
   cout << "Hello my gee!"
        << "\n";
   cout << myNum;
-
+  cout << max(5, 10);
+  string txt = "We are the so-called \"Vikings\" from the north.";
   int myNo = 5;              // Integer (whole number)
   float myFloatNum = 5.99;   // Floating point number
   double myDoubleNum = 9.98; // Floating point number
